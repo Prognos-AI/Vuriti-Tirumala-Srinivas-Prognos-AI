@@ -7,7 +7,6 @@ AI-driven predictive maintenance project for Remaining Useful Life (RUL) estimat
 - `main.ipynb`: End-to-end notebook pipeline for data preparation, training, evaluation, and analysis.
 - `dashboard.py`: Streamlit dashboard for model insights, metrics, and visual outputs.
 - `requirements.txt`: Python dependency list.
-- `AI-PrognosAI.pdf`: Project report/documentation.
 
 ### Data
 
