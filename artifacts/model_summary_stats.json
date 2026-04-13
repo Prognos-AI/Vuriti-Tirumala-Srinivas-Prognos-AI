@@ -1,0 +1,52 @@
+{
+  "metrics_overview": {
+    "best_model": "GRU",
+    "best_model_rmse": 15.570992599923583,
+    "avg_prediction_error_cycles": 10.597416877746582,
+    "median_prediction_error_cycles": 6.513275146484375,
+    "std_prediction_error": 15.397857666015625,
+    "prediction_intervals_coverage_95": 0.28174425456688273
+  },
+  "dataset_summary": {
+    "num_test_samples": 42425,
+    "num_engines_evaluated": 690,
+    "datasets": [
+      "FD001",
+      "FD002",
+      "FD003",
+      "FD004"
+    ]
+  },
+  "performance_by_rul_range": {
+    "0-30": {
+      "Count": 1295.0,
+      "RMSE": 10.1627,
+      "MAE": 8.0101,
+      "R2": -1.7298
+    },
+    "30-60": {
+      "Count": 3235.0,
+      "RMSE": 19.8172,
+      "MAE": 14.3807,
+      "R2": -4.3361
+    },
+    "60-90": {
+      "Count": 4887.0,
+      "RMSE": 23.8205,
+      "MAE": 20.289,
+      "R2": -6.5912
+    },
+    "90+": {
+      "Count": 33008.0,
+      "RMSE": 13.6043,
+      "MAE": 8.8932,
+      "R2": -1.4829
+    }
+  },
+  "model_reliability": {
+    "engines_excellent_accuracy": 277,
+    "engines_good_accuracy": 183,
+    "engines_acceptable_accuracy": 170,
+    "engines_poor_accuracy": 60
+  }
+}
